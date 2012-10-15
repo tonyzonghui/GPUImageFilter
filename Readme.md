@@ -10,7 +10,7 @@
 ### 2. Add GPUImage libraries into project 
 
 	1. Download GPUImage library (open project folder in terminal):
-		- git module add git://github.com/BradLarson/GPUImage.git
+		- git submodule add git://github.com/BradLarson/GPUImage.git
 	2. Add GPUImage framework to your own project:
 		Drag GPUImage->framework->GPUImage.xcodeproj to project
 
