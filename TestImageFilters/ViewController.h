@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DLCImagePickerController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <DLCImagePickerDelegate>
+
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
+
+- (IBAction)btnSelectImageClicked:(id)sender;
 
 @end
